@@ -17,17 +17,17 @@ hi :)
 /hyper [_test_]
 - _test_
 /hyper [[text](url)](url)
-- [EtichalBot](CeWeR.blogfa.com)
+- [MasihHack](MasihHack.ir)
 *EXAMPLE*
 /hyper [`Hi`]
 [*I'm a api bot* ]
-[_Etichal Team created me_]
-[[EtichalBot Channel](test)][(http://telegram.me/Etichal_team)]
+[_MasihHack Team created me_]
+[[MasihHack Channel](test)][(http://telegram.me/MasihHack)]
 *RESULT*
 `Hi`
 *I'm a api bot* 
-_Etichal Team created me_
-[EtichalBot Channel](http://telegram.me/Etichal_Team)
+_MasihHack Team created me_
+[MasihHack Channel](http://telegram.me/MasihHack)
 *OTHER*
 *sticker to photo*
 `just send a sticker`
@@ -35,7 +35,7 @@ _Etichal Team created me_
 `just send a photo`
 *webshot*
 `/webshot url`
-_TNX TO USE ME :)_
+_TNX TO USE ME Admin: @FuckUp:)_
 ]] 
 
 -------
@@ -44,7 +44,7 @@ _TNX TO USE ME :)_
 
 function is_admin(msg)-- Check if user is admin or not
   local var = false
-  local admins = {94746365}-- put your id here
+  local admins = {255872558}-- put your id here
   for k,v in pairs(admins) do
     if msg.from.id == v then
       var = true
@@ -250,7 +250,7 @@ function msg_processor(msg)
 
 elseif msg.text:match("^/[sS]tart") or msg.text:match("^/[Hh]elp") then
  sendMessage(msg.chat.id, start, true, false, true)
-  sendMessage(msg.chat.id, [[[Create Bot For You:)](https://telegram.me/Etichal_Team), true, false, true)
+  sendMessage(msg.chat.id, [[[Create Bot For You:)](https://telegram.me/FuckUp), true, false, true)
 return end
 
 end
